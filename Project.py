@@ -32,7 +32,7 @@ obj_func = cp.sum([profits[i]*x[i] for i in range(len(profits))])
 constraints = []
 
 #Adding the emission constraint
-constraints.append(np.multiply(np.array(emissions).astype(float) - 307.0,x) <= 0)
+constraints.append(np.multiply(np.array(emissions).astype(float) - (307.0* .95),x) <= 0)
 
 #Adding the sales constraint
 constraints.append(x[0] + x[1] + x[2] + x[3] >= sales[0]) #all civics
