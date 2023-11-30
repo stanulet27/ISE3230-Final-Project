@@ -53,7 +53,5 @@ for i in range(len(emissions)):
 problem = cp.Problem(cp.Maximize(obj_func), constraints)
 problem.solve(solver=cp.GUROBI, verbose = True)
 
-print("obj_func =")
-print(obj_func.value)
-print("x = ")
-print(x.value)
+print("obj_func =" , obj_func.value)
+print("x = " , x.value)
