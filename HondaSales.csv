@@ -1,10 +1,10 @@
-model,units sold in 2022
-civic,133392
-accord,154612
-clarity,208
-hr-v,115416
-cr-v,238155
-passport,41306
-pilot,99567
-odyssey,47615
-ridgeline,42762
+model,units sold in 2022,min cars
+civic,133392,100044
+accord,154612,115959
+clarity,208,156
+hr-v,115416,86562
+cr-v,238155,178617
+passport,41306,30980
+pilot,99567,74676
+odyssey,47615,35712
+ridgeline,42762,32072
